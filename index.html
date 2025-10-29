@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RefauzanPortofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <main>
+        <aside>
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink">
+                    <i class="fa-solid fa-house"></i>
+                    <p>Home</p>
+                </li>
+                <li onclick="Navigate(1)">
+                    <i class="fa-solid fa-user"></i>
+                    <p>Tentang Saya</p>
+                </li>
+                <li onclick="Navigate(2)">
+                    <i class="fa-solid fa-list"></i>
+                    <p>Pengalaman Kerja</p>
+                </li>
+                <li onclick="Navigate(3)">
+                    <i class="fa-solid fa-code"></i>
+                    <p>Proyek</p>
+                </li>
+                <li onclick="Navigate(4)">
+                    <i class="fa-solid fa-comments"></i>
+                    <p>Kontak Saya</p>
+                </li>
+            </ul>
+        </aside>
+        
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <!-- Home Slide -->
+                <div class="swiper-slide home-slide">
+                    <div class="HomeContent">
+                        <h1>Hi! saya <span class="stylized-name">Refauzan</span>,</h1>
+                        <h2><span class="professions"></span></h2>
+                        <p class="heroline">Seorang Web Developer yang bersemangat menciptakan aplikasi web interaktif dan fungsional. Menggabungkan logika pemrograman dengan desain yang menarik untuk memberikan pengalaman pengguna terbaik.</p>
+                        <div class="buttonGroup">
+                            <button class="contact-btn" onclick="window.open('https://wa.me/6283808473134', '_blank')">Contact Me</button>
+                        </div>
+                    </div>
+                    <div class="SideImg">
+                        <div class="top-right-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                        <div class="image-container">
+                            <img src="WhatsApp Image 2025-10-29 at 08.31.19.jpeg" alt="Profile Photo">
+                            <div class="image-overlay">
+                                <div class="glow-effect"></div>
+                            </div>
+                        </div>
+                        <div class="bottom-left-corner">
+                            <hr class="hr1">
+                            <hr class="hr2">
+                        </div>
+                    </div>
+                    <p class="slide-help">Scroll for next slide <i class="fa-solid fa-chevron-right fa-shake"></i></p>
+                </div>
+                
+                <!-- About Me Slide -->
+                <div class="swiper-slide">
+                    <div class="about-us">
+                        <h1 class="heading">Tentang saya</h1>
+                        <h3 class="sub-heading">I'm Refauzan Adi Nursatyo</h3>
+                        <p class="aboutme-deatils">
+                           Saya merupakan Lulusan S1 Teknik Informatika dari Universitas Pamulang dengan minat besar di bidang web 
+                            development. Menguasai HTML, CSS, JavaScript, dan PHP,Laravel,GIT, GitHub 
+                            sebagai dasar pengembangan web. Terbiasa menggunakan Canva, Lightroom, dan CapCut untuk 
+                            mendukung kebutuhan visual. Memiliki pemahaman dasar Microsoft Office, serta cepat beradaptasi 
+                            dan siap mempelajari tools maupun framework baru sesuai kebutuhan perusahaan. Disiplin, kreatif, 
+                            dan antusias dalam mengembangkan potensi diri di dunia industri digital.
+                        </p>
+                        <div class="about-me-divison">
+                            <div class="about-me-table">
+                                <li><span>Pengalaman:</span> 2+ years</li>
+                                <li><span>Tempat Tinggal:</span> Tangerang,indonesia</li>
+                                <li><span>umur:</span> 22</li>
+                                <li><span>NO Telpon:</span> 083808473134</li>
+                                <li><span>Bahasa pemrograman:</span> HTML, CSS, JS, SQL, Laravel</li>
+                                <li><span>Gelar:</span> S1 Teknik Informatika</li>
+                                <div class="buttonGroup">
+                                    <button class="contact-btn" onclick="window.open('https://wa.me/6283808473134', '_blank')">Contact Me</button>
+                                </div>
+                            </div>
+                            <div class="skill-bar">
+                                <li>
+                                    <p>HTML</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>CSS</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:80%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>JavaScript</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:85%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>SQL</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:60%"></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>Laravel</p>
+                                    <div class="bar">
+                                        <div class="active-bar" style="width:40%"></div>
+                                    </div>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Services Slide -->
+                <div class="swiper-slide services">
+                    <h1 class="heading">Pengalaman Kerja</h1>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                        <h2>SMAN 15 TANGERANG</h2>
+                        <h3>Web Developer (APRIL 2024-JUNI 2024) (MARET 2025-JUNI 2025)</h3>
+                        <p>Mengembangkan aplikasi web sekolah seperti sistem perpustakaan digital, rekomendasi ekstrakurikuler, dan penilaian guru terbaik.</p>
+                    </div>
+                    <div class="service">
+                        <div class="service-icon"><i class="fa-solid fa-globe"></i></div>
+                        <h2>PT.IMAMATEK</h2>
+                        <h3>Implementor(AGUSTUS 2025-SEKARANG)</h3>
+                         <p>
+                            Melakukan analisis kebutuhan, perancangan sistem dasar, implementasi dan konfigurasi sistem, serta pengujian dan pelatihan pengguna bersama klien.
+                        </p>
+                    </div>
+                </div>
+               <!-- Projects Slide -->
+<div class="swiper-slide projects">
+    <h1 class="heading">Proyek</h1>
+    <div class="projects-grid">
+        <div class="project">
+            <img src="image copy.png" alt="perpustakaan">
+            <div class="project-overlay">
+                <h3>E-Commerce Website</h3>
+                <p>Website Peminjaman Buku perpustakaan</p>
+                <button class="demo-btn"><i class="fa-solid fa-external-link"></i> Live Demo</button>
+            </div>
+        </div>
+        <div class="project">       
+            <img src="image.png" alt="Portfolio Website">
+            <div class="project-overlay">
+                <h3>Portfolio Website</h3>
+                <p>Pembuatan Website Penjualan Sepatu</p>
+                <a href="https://rznnnnnn.github.io/awesome-asfak/" class="demo-btn" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-solid fa-external-link"></i> Live Demo
+                </a>
+            </div>
+        </div>
+        <div class="project">
+            <img src="image copy 2.png" alt="Mobile App UI">
+            <div class="project-overlay">
+                <h3>Pemilihan Guru Terbaik</h3>
+                <p>Website pemilihan guru Terbaik Metode SAW</p>
+                <button class="demo-btn"><i class="fa-solid fa-external-link"></i> Live Demo</button>
+            </div>
+        </div>
+        <div class="project">
+            <img src="Screenshot 2025-10-29 202909.png" alt="Dashboard Analytics">
+            <div class="project-overlay">
+                <h3>Pemilihan ekstrakurikuler</h3>
+                <p>Website Pemilihan ekstrakurikuler Siswa</p>
+                <button class="demo-btn"><i class="fa-solid fa-external-link"></i> Live Demo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!-- Contact Me Slide -->
+                <div class="swiper-slide contactMe">
+                    <h1 class="heading">Contact Me</h1>
+                    <div class="contact-info-container">
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>Mobile No</h3>
+                            <p>083808473134</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Location</h3>
+                            <p> TANGERANG</p>
+                        </div>
+                        <div class="contactinfo">
+                            <i class="fa-regular fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>Refauzanadinursatyo@gmail.com</p>
+                        </div>
+                    </div>
+                    <form>
+                        <h2>Send Me A Message
+                        </h2>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea rows="8" placeholder="Type your Message Here..." required></textarea>
+                        <button type="submit" class="primary">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
